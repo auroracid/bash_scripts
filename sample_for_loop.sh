@@ -1,6 +1,8 @@
 # This script is an example of how to use a for loop
+
 for i in 1 3 5;
-do
+do 
     echo $i
-    touch newfile$i.txt 
+    touch newfile$i.txt
+    touch Newfile$i.txt
 done
